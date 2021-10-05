@@ -1,0 +1,58 @@
+---
+---
+
+// from https://github.com/pages-themes/cayman/blob/master/_sass/variables.scss
+$header-bg-color: #009FFF; //  #DA4453; #e96443; aa4b6b; c31432
+$header-bg-color-second: #ec2f4b; // #89216B; #904e95; #6b6b83; 240b36
+$header-bg-color-third: #3b8d99;
+$section-headings-color: #8c1515;
+$body-link-color: #8d3c1e;
+
+// The breakpoint controls text column width
+$large-breakpoint: 108em;   // default 64em
+$medium-breakpoint: 84em;   // default 42em
+
+@import "{{ site.theme }}";
+@import "video-embed.css";
+
+.page-header {
+    background-image: linear-gradient(120deg, $header-bg-color, $header-bg-color-second);
+    //  background-image: linear-gradient(120deg, $header-bg-color, $header-bg-color-second, $header-bg-color-third);
+}
+
+.project-tagline {
+    opacity: 1.0;
+}
+
+// our addition
+.project-subtitle {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+//   margin-bottom: 0;
+
+  @include large {
+    font-size: 2.3rem;
+  }
+
+  @include medium {
+    font-size: 1.5rem;
+  }
+
+  @include small {
+    font-size: 1.15rem;
+  }
+}
+
+// .project-tagline {
+//   margin-bottom: 0;
+//   font-weight: normal;
+//   opacity: 0.7;
+// }
+
+.btn {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.site-footer {
+    border-top: solid 2px $hr-border-color;
+}
