@@ -2,7 +2,7 @@
 layout: main
 title: MetaMorph
 subtitle: Learning Universal Controllers with Transformers
-project_tagline: "ICLR 2022 Anonymous Submission"
+project_tagline: "Agrim Gupta, Linxi \"Jim\" Fan, Surya Ganguli, Li Fei-Fei"
 description: "MetaMorph"
 ---
 
@@ -11,9 +11,10 @@ description: "MetaMorph"
 -------------
 # Abstract
 
-Multiple domains like vision, natural language, and audio are witnessing tremendous progress by leveraging Transformers for large scale pre-training followed by task specific fine tuning. In contrast, in robotics we train a single robot for a single task. Modular robot systems now allow for the flexible combination of general-purpose building blocks into task optimal configurations. However, given the exponentially large number of possible robot configurations, training a controller for each new design is impractical. 
 
-In this work, we propose ***MetaMorph***, a Transformer based approach to learn a universal controller over a modular robot design space. MetaMorph is based on the insight that robot morphology is just another modality on which we can condition the output of a Transformer. Through extensive experiments we demonstrate that large scale pre-training on a variety of robot morphologies results in policies with combinatorial generalization capabilities, including zero shot generalization to unseen robot configurations. Moreover, we also demonstrate that our pre-trained policy can be used for sample-efficient transfer to completely new robot configurations and tasks.
+Multiple domains like vision, natural language, and audio are witnessing tremendous progress by leveraging Transformers for large scale pre-training followed by task specific fine tuning. In contrast, in robotics we primarily train a single robot for a single task. However, modular robot systems now allow for the flexible combination of general-purpose building blocks into task optimized morphologies. However, given the exponentially large number of possible robot morphologies, training a controller for each new design is impractical.
+
+In this work, we propose ***MetaMorph***, a Transformer based approach to learn a universal controller over a modular robot design space. MetaMorph is based on the insight that robot morphology is just another modality on which we can condition the output of a Transformer. Through extensive experiments we demonstrate that large scale pre-training on a variety of robot morphologies results in policies with combinatorial generalization capabilities, including zero shot generalization to unseen robot morphologies. We further demonstrate that our pre-trained policy can be used for sample-efficient transfer to completely new robot morphologies and tasks.
 
 
 -------------

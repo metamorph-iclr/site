@@ -26,11 +26,19 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h1 class="project-subtitle">{{ page.subtitle }}</h1>
       <h2 class="project-tagline">{{ page.project_tagline }}</h2>
+      <a href="https://openreview.net/pdf?id=Opmqtk_GvYL" class="btn">ICLR 2022 Paper</a>
+      <a href="https://arxiv.org" class="btn">Arxiv</a>
+      <a href="https://github.com/agrimgupta92/metamorph-code-release" class="btn">Code Release</a>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-      
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">
+            This project is maintained by <a href="http://svl.stanford.edu/">Stanford Vision and Learning Lab</a>.
+        </span>
+      </footer>
     </main>
   </body>
 </html>
