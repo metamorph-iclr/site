@@ -2,7 +2,8 @@
 layout: main
 title: MetaMorph
 subtitle: Learning Universal Controllers with Transformers
-project_tagline: "Agrim Gupta <sup>, Linxi \"Jim\" Fan, Surya Ganguli, Li Fei-Fei"
+project_tagline: "Agrim Gupta <sup>1</sup>, Linxi \"Jim\" Fan <sup>1,3</sup>, Surya Ganguli <sup>1,2</sup>, Li Fei-Fei <sup>1,2</sup>"
+affiliations: "<sup>1</sup> Stanford, <sup>2</sup> Stanford Institute for Human-Centered AI, <sup>3</sup> NVIDIA"
 description: "MetaMorph"
 ---
 
