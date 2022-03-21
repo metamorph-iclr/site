@@ -2,7 +2,7 @@
 layout: main
 title: MetaMorph
 subtitle: Learning Universal Controllers with Transformers
-project_tagline: "Agrim Gupta, Linxi \"Jim\" Fan, Surya Ganguli, Li Fei-Fei"
+project_tagline: "Agrim Gupta <sup>, Linxi \"Jim\" Fan, Surya Ganguli, Li Fei-Fei"
 description: "MetaMorph"
 ---
 
@@ -29,3 +29,17 @@ In this work, we propose ***MetaMorph***, a Transformer based approach to learn 
 
 {% include video/rawVideo.html fileName="videos/video.mp4" %}
 
+-------------
+
+# Citation
+
+```bibtex
+@inproceedings{
+    gupta2022metamorph,
+    title={MetaMorph: Learning Universal Controllers with Transformers},
+    author={Agrim Gupta and Linxi Fan and Surya Ganguli and Li Fei-Fei},
+    booktitle={International Conference on Learning Representations},
+    year={2022},
+    url={https://openreview.net/forum?id=Opmqtk_GvYL}
+}
+```
