@@ -9,6 +9,13 @@ description: "MetaMorph"
 ![pull figure]({{ 'assets/images/algorithm.jpg' | absolute_url }})
 
 -------------
+# Video Overview
+
+
+{% include video/rawVideo.html fileName="videos/metamorph-twitter-video.mp4" %}
+
+
+-------------
 # Abstract
 
 
@@ -18,7 +25,7 @@ In this work, we propose ***MetaMorph***, a Transformer based approach to learn 
 
 
 -------------
-# Video Overview
+# Experiment Details
 
 {% include video/rawVideo.html fileName="videos/video.mp4" %}
 
