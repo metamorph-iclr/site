@@ -26,7 +26,7 @@ In this work, we propose ***MetaMorph***, a Transformer based approach to learn 
 
 
 -------------
-# Experiment Details
+# Experiment Results
 
 {% include video/rawVideo.html fileName="videos/video.mp4" %}
 
