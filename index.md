@@ -13,8 +13,7 @@ description: "MetaMorph"
 # Video Overview
 
 
-{% include video/youtubePlayer.html id="mGXtjLxyAkQ" %}
-
+{% include video/youtubePlayer.html id="mGXtjLxyAkQ?rel=0&amp;autoplay=1&mute=1" %}
 
 -------------
 # Abstract
